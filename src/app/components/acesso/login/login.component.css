@@ -32,8 +32,24 @@ hr {
     background-position: left;
     background-repeat: no-repeat;
     background-size: 20px;
-    margin: 20px 20px 40px 60px;
+    margin: 0 0 20px 60px;
     padding-left: 30px;
     cursor: pointer;
     color: #385185;
+}
+.app-store {
+    background-image: url("/assets/social-icons/appStore.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    cursor: pointer;
+    width: 100%;
+    height: 100px;
+}
+.google-play {
+    background-image: url("/assets/social-icons/googleplay.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    cursor: pointer;
+    width: 100%;
+    height: 100px;
 }
