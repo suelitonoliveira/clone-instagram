@@ -10,6 +10,7 @@ export class AcessoComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
   }
 
 }
