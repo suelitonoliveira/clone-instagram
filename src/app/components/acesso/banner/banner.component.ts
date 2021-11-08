@@ -43,7 +43,7 @@ export class BannerComponent implements OnInit {
     /* ocultar imagem */
     for(let i:number = 0; i <= this.imagens.length; i++) {
       if(this.imagens[i].estado === 'visivel'){
-        this.imagens[i].estado = 'escondido'
+        this.imagens[i].estado = 'escondido';
         this.idx = i === 4 ? 0 : i + 1;
         break
       }
@@ -52,6 +52,7 @@ export class BannerComponent implements OnInit {
       this.imagens[this.idx].estado = 'visivel';
 
     setTimeout(() => this.logicaRotacao(), 3000)
+    console.log('logicaRotacao');
   }
 
 }
